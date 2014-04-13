@@ -14,7 +14,7 @@ public class UserInput : MonoBehaviour {
 		{
 
 			print("add force");
-			rigidbody2D.AddForce(new Vector2(0,200));
+			rigidbody2D.AddForce(new Vector2(50,200));
 		}
 	}
 }
