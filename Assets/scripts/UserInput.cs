@@ -12,8 +12,9 @@ public class UserInput : MonoBehaviour {
 	{
 		if(Input.GetMouseButtonDown(0))
 		{
+
 			print("add force");
-			//rigidbody.AddForce(0, 10, 0);
+			rigidbody2D.AddForce(new Vector2(0,200));
 		}
 	}
 }
