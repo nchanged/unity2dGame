@@ -12,8 +12,6 @@ public class UserInput : MonoBehaviour {
 	{
 		if(Input.GetMouseButtonDown(0))
 		{
-
-			print("add force");
 			rigidbody2D.AddForce(new Vector2(50,200));
 		}
 	}
